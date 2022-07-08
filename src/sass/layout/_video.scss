@@ -1,0 +1,25 @@
+.video{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.video__iframe{
+    width: 272px;
+    height: 184px;
+}
+.video__title{
+margin-bottom: 30px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 150%;
+color: #FFFFFF;
+
+}
+.video__description{
+margin-bottom: 50px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: rgba(255, 255, 255, 0.7);
+}
