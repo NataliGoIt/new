@@ -20,10 +20,10 @@ line-height: 22px;
 color: #FFFFFF;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 768px){
     .contacts{
-        padding-top: 117px;
-        padding-bottom: 117px;
+        padding-top: 90px;
+        padding-bottom: 90px;
     }
     .contacts__position{
         display: flex;
@@ -32,6 +32,24 @@ color: #FFFFFF;
     }
     .contacts__title{
         margin-bottom: 0;
+        max-width: 400px;
+        font-weight: 700;
+        font-size: 30px;
+        // line-height: 66px;
+    }
+    .contacts__btn{
+        padding: 12px 38px; 
+        font-size: 18px;
+        // line-height: 29px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .contacts{
+        padding-top: 117px;
+        padding-bottom: 117px;
+    }
+    .contacts__title{
         max-width: 826px;
         font-weight: 700;
         font-size: 60px;
