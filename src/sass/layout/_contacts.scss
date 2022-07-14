@@ -12,9 +12,34 @@ color: #FFFFFF;
 .contacts__btn{
     padding: 12px 34px;
     border: none;
+    border-radius: 4px;
     background-color: #5454D4;
     font-weight: 700;
 font-size: 16px;
 line-height: 22px;
 color: #FFFFFF;
+}
+
+@media screen and (min-width: 1440px){
+    .contacts{
+        padding-top: 117px;
+        padding-bottom: 117px;
+    }
+    .contacts__position{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contacts__title{
+        margin-bottom: 0;
+        max-width: 826px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 66px;
+    }
+    .contacts__btn{
+        padding: 16px 42px; 
+        font-size: 21px;
+        line-height: 29px;
+    }
 }

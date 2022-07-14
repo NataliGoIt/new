@@ -22,9 +22,11 @@ color: rgba(255, 255, 255, 0.7);
 .hero__btn{
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 12px 21px;
     background-color: #5454D4;
     border: none;
+    border-radius: 4px;
     margin-bottom: 50px;
     color: #fff;
 }
@@ -40,4 +42,41 @@ margin-right: 8px;
 }
 .hero__img{
     width: 272px;
+}
+
+@media screen and (min-width: 1440px){
+.hero__position{
+    display: flex;
+}
+.hero__left{
+    padding-top: 155px;
+    margin-right: 91px;
+}
+.hero__title{
+    margin-bottom: 48px;
+    max-width: 582px;
+    font-size: 80px;
+    line-height: 84px;
+}
+.hero__description{
+    margin-bottom: 64px;
+    max-width: 536px;
+    font-size: 21px;
+    line-height: 39px;
+}
+.hero__btn{
+    padding: 16px 27px;
+    margin-bottom: 0;
+}
+.hero__btn-title{
+    font-size: 20px;
+    line-height: 27px;
+}
+.hero__btn-ikon{
+    width: 28px;
+    height: 28px;
+}
+.hero__img{
+    width: 655px;
+}
 }
