@@ -402,8 +402,8 @@ body {
 
 @media screen and (min-width: 1024px) {
   .video {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
   }
   .video__text {
     display: -webkit-box;
@@ -539,23 +539,20 @@ body {
 
 @media screen and (min-width: 1024px) {
   .media__title {
-    margin-bottom: 60px;
-    max-width: 600px;
-    font-size: 52px;
+    margin-bottom: 80px;
+    max-width: 540px;
+    font-size: 42px;
   }
   .media__item {
-    width: 384px;
-    height: 300px;
+    width: 280px;
+    height: 240px;
   }
   .media__item-title {
     margin-bottom: 20px;
-    font-size: 28px;
-    line-height: 38px;
+    font-size: 26px;
   }
   .media__item-description {
-    max-width: 299px;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 18px;
   }
 }
 
@@ -629,7 +626,7 @@ body {
     margin-bottom: 0;
     max-width: 400px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
   }
   .contacts__btn {
     padding: 12px 38px;

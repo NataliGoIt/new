@@ -71,26 +71,26 @@ color: rgba(255, 255, 255, 0.7);
 
 @media screen and (min-width: 1024px){
     .media__title{
-        margin-bottom: 60px;
+        margin-bottom: 80px;
 
-        max-width: 600px;
+        max-width: 540px;
         
-        font-size: 52px;
+        font-size: 42px;
         // line-height: 70px;
     }
     .media__item{
-        width: 384px;
-        height: 300px;
+        width: 280px;
+        height: 240px;
     }
     .media__item-title{
         margin-bottom: 20px;
-       font-size: 28px;
-       line-height: 38px;
+       font-size: 26px;
+    //    line-height: 38px;
     }
     .media__item-description{
-        max-width: 299px;
-        font-size: 20px;
-        line-height: 28px;
+        // max-width: 299px;
+        font-size: 18px;
+        // line-height: 28px;
     }
 }
 
