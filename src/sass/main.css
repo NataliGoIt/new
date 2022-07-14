@@ -243,6 +243,8 @@ body {
 }
 
 .hero__img {
+  display: block;
+  margin: 0 auto;
   width: 272px;
 }
 
@@ -291,6 +293,7 @@ body {
 }
 
 .video__iframe {
+  display: block;
   width: 272px;
   height: 184px;
   margin: 0 auto;
@@ -306,6 +309,7 @@ body {
 }
 
 .video__description {
+  max-width: 327px;
   margin-bottom: 50px;
   font-style: normal;
   font-weight: 400;
@@ -342,7 +346,6 @@ body {
     line-height: 39px;
   }
   .video__iframe {
-    display: block;
     width: 1200px;
     height: 670px;
     margin: 0 auto;

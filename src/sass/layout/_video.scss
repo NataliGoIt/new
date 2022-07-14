@@ -3,6 +3,7 @@
     padding-bottom: 70px;
 }
 .video__iframe{
+    display: block;
     width: 272px;
     height: 184px;
     margin: 0 auto;
@@ -17,6 +18,7 @@ color: #FFFFFF;
 
 }
 .video__description{
+max-width: 327px;
 margin-bottom: 50px;
 font-style: normal;
 font-weight: 400;
@@ -49,7 +51,6 @@ color: rgba(255, 255, 255, 0.7);
     line-height: 39px;
     }
     .video__iframe{
-        display: block;
         width: 1200px;
         height: 670px;
         margin: 0 auto;
