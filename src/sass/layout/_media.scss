@@ -68,6 +68,33 @@ color: rgba(255, 255, 255, 0.7);
     }
 }
 
+
+@media screen and (min-width: 1024px){
+    .media__title{
+        margin-bottom: 60px;
+
+        max-width: 600px;
+        
+        font-size: 52px;
+        // line-height: 70px;
+    }
+    .media__item{
+        width: 384px;
+        height: 300px;
+    }
+    .media__item-title{
+        margin-bottom: 20px;
+       font-size: 28px;
+       line-height: 38px;
+    }
+    .media__item-description{
+        max-width: 299px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+
 @media screen and (min-width: 1440px){
     .media{
         padding-top: 100px;
