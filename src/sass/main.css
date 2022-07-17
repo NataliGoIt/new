@@ -743,6 +743,7 @@ body {
 }
 
 .burger-menu__link-ikon {
+  fill: transparent;
   stroke: #ffffff;
   width: 14px;
   height: 14px;
