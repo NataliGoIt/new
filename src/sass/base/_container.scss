@@ -6,16 +6,12 @@
     margin: 0 auto; 
   }
 
-    @media screen and (min-width: 480px){
-      .container{
-        width: 450px;
-      }
-    }
     // 768+
     @media screen and (min-width: 768px){
       .container{
        width: 708px;
-      
+       padding-right: 24px;
+       padding-left: 24px;
       }
     }
     // 1024+
