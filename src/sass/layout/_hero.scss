@@ -54,6 +54,7 @@ margin-right: 8px;
     .hero__position{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
     .hero__title{
         margin-bottom: 36px;
@@ -98,17 +99,17 @@ margin-right: 8px;
 
 @media screen and (min-width: 1440px){
 .hero__left{
-    padding-top: 155px;
+    // padding-top: 155px;
     margin-right: 91px;
 }
 .hero__title{
-    margin-bottom: 48px;
+    margin-bottom: 54px;
     max-width: 582px;
     font-size: 80px;
-    line-height: 84px;
+    line-height: 1.4;
 }
 .hero__description{
-    margin-bottom: 64px;
+    margin-bottom: 72px;
     max-width: 536px;
     font-size: 21px;
     line-height: 39px;

@@ -1,0 +1,214 @@
+.music{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.music__play-item{
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid #FFFFFF;
+    padding-top: 25px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 13px;
+}
+.music-11{
+    border-bottom: 0.5px solid #FFFFFF;
+}
+.music__play-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.music__play-title{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+.music__play-description{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.music__play-play{
+    margin-left: auto;
+    width: 17px;
+    height: 17px;
+    fill: #FFFFFF;
+}
+// ============================music-progress==============================
+.progress__container{
+    margin: 0 auto;
+    width: 250px;
+    height: 6px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.progress{
+    height: 6px;
+    background-color: #c43838;
+    border-radius: 10px;
+}
+.player{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    border-top: 0.5px solid #FFFFFF;
+}
+.music__btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 15px;
+}
+.play-img{
+    width: 28px;
+    height: 28px;
+    fill: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.play-pause{
+    display: none;
+}
+.pause-img{
+    width: 28px;
+    height: 28px;
+    fill: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn__prev-svg{
+    width: 28px;
+    height: 28px;
+    fill: #FFFFFF;
+}
+.btn__next-svg{
+    width: 28px;
+    height: 28px;
+    fill: #FFFFFF;
+}
+
+
+@media screen and (min-width: 768px){
+    .music__play-img{
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .music__play-title{
+        font-size: 16px;
+    }
+    .music__play-description{
+        font-size: 13px;
+    }
+    .music__play-play{
+        width: 17px;
+        height: 17px;
+    }
+    // =======player=========
+    .player{
+        margin-bottom: 28px;
+    }
+    .progress__container{
+        width: 500px;
+        height: 8px;
+    }
+    .progress{
+        height: 8px;
+    }
+    .music__btn{
+        margin-bottom: 20px;
+        }
+        .play-img{
+            width: 36px;
+            height: 36px;
+            margin-left: 20px;
+            margin-right: 20x;
+        }
+        .pause-img{
+            width: 36px;
+            height: 36px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .btn__prev-svg{
+            width: 36px;
+            height: 36px;
+        }
+        .btn__next-svg{
+            width: 36px;
+            height: 36px;
+        }
+}
+
+@media screen and (min-width: 1440px){
+    .music{
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+    .music__play-item{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 25px;
+    }
+    .music__play-img{
+        width: 70px;
+        height: 70px;
+        margin-right: 24px;
+    }
+    .music__play-title{
+        font-size: 20px;
+        line-height: 17px;
+    }
+    .music__play-description{
+        font-size: 17px;
+        line-height: 17px;
+        margin-top: 10px;
+    }
+    .music__play-play{
+        width: 23px;
+        height: 23px;
+    }
+    // ======player========== 
+    .player{
+        margin-bottom: 35px;
+        padding-top: 35px;
+    }
+    .progress__container{
+        width: 700px;
+        height: 9px;
+    }
+    .progress{
+        height: 9px;
+    }
+    .music__btn{
+        margin-bottom: 25px;
+        }
+        .play-img{
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .pause-img{
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .btn__prev-svg{
+            width: 40px;
+            height: 40px;
+        }
+        .btn__next-svg{
+            width: 40px;
+            height: 40px;
+        }
+}
