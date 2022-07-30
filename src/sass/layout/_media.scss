@@ -7,32 +7,123 @@
 .photo-position{
     display: flex;
     justify-content: center;
-}
-.photo-item{
-    width: max-content;
-        height: max-content;
+    align-items: center;
+    overflow: auto;
 }
 .photo-list-too{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .photo-list-one{
-    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-    // .media__list{
-    //     display: flex;
-    //     justify-content: center;
-    //     flex-wrap: wrap;
-    //     // margin-top: -30px;
-    //     // margin-left: -30px;
-    // }
-    // .media__item{
-    //     margin: 0;
-    //     // margin-top: 30px;
-    //     // margin-left: 30px;
-    //     width: max-content;
-    //     height: max-content;
-    // }
+.photo-position-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+}
+.too{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+}
+.three{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+}
+.foure{
+    width: 250px;
+    height: 300px;
+    margin-right: 20px;
+}
+.five{
+    width: 250px;
+    height: 300px;
+}
 
+.photo-item{
+    width: max-content;
+    height: max-content;
+}
+@media screen and (min-width: 768px){
+    .photo-position{
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .photo-list-too{
+        display: flex;
+    }
+    .photo-position-list{
+        display: block;
+    }
+    .photo-list-one{
+        display: block;
+        margin-right: 30px;
+    }
+    .first{
+        width: 200px;
+        height: 350px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .too{
+        width: 400px;
+        height: 300px;
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+    .three{
+        width: 200px;
+        height: 150px;
+        margin-right: 0;
+    }
+    .foure{
+        width: 190px;
+        height: 200px;
+        margin-right: 18px;
+    }
+    .five{
+        width: 190px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .first{
+        width: 300px;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+    .too{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+    .three{
+        width: 300px;
+        height: 180px;
+    }
+    .foure{
+        width: 240px;
+        height: 330px;
+        margin-right: 20px;
+    }
+    .five{
+        width: 240px;
+        height: 330px;
+    }
+}
+    @media screen and (min-width: 1440px){  
 .first{
     width: 500px;
     height: 700px;
@@ -55,4 +146,5 @@
 .five{
     width: 335px;
     height: 430px;
+}
 }

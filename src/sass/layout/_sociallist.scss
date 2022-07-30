@@ -7,9 +7,31 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -10px;
 }
 .social-link{
     font-style: normal;
     font-size: 20px;
     color: aliceblue;
+}
+.social-item{
+    text-align: center;
+    width: 110px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .social-list{
+        flex-wrap: nowrap;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .social-item{
+        width: fit-content;
+        margin-top: 0;
+        margin-left: 0;
+    }
 }
