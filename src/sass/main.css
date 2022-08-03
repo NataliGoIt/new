@@ -528,101 +528,28 @@ body {
 }
 
 .about__title {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
   font-weight: 700;
-  font-size: 38px;
+  font-size: 36px;
 }
 
 .about__text {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 400px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 39px;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
-.photo {
-  background-color: #131f27;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.photo-position {
+.about__photo {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   overflow: auto;
-}
-
-.photo-list-too {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.photo-list-one {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.photo-position-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.first {
-  width: 250px;
-  height: 300px;
-  margin-right: 20px;
-}
-
-.too {
-  width: 250px;
-  height: 300px;
-  margin-right: 20px;
-}
-
-.three {
-  width: 250px;
-  height: 300px;
-  margin-right: 20px;
-}
-
-.foure {
-  width: 250px;
-  height: 300px;
-  margin-right: 20px;
-}
-
-.five {
-  width: 250px;
-  height: 300px;
 }
 
 .photo-item {
@@ -634,105 +561,46 @@ body {
   height: max-content;
 }
 
+.photo-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.photo__img {
+  width: 250px;
+  height: 300px;
+}
+
 @media screen and (min-width: 768px) {
-  .photo-position {
+  .about {
+    text-align: left;
+  }
+  .about__position {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    overflow: hidden;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
-  .photo-list-too {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .about__right {
+    width: 380px;
   }
-  .photo-position-list {
-    display: block;
-  }
-  .photo-list-one {
-    display: block;
-    margin-right: 30px;
-  }
-  .first {
-    width: 200px;
-    height: 350px;
-    margin-bottom: 15px;
-    margin-right: 0;
-  }
-  .too {
-    width: 400px;
-    height: 300px;
-    margin-bottom: 15px;
-    margin-right: 0;
-  }
-  .three {
-    width: 200px;
-    height: 150px;
-    margin-right: 0;
-  }
-  .foure {
-    width: 190px;
-    height: 200px;
-    margin-right: 18px;
-  }
-  .five {
-    width: 190px;
-    height: 200px;
+  .photo__img {
+    width: 330px;
+    height: 450px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .first {
-    width: 300px;
-    height: 450px;
-    margin-bottom: 20px;
-  }
-  .too {
+  .about__right {
     width: 500px;
-    height: 300px;
-    margin-bottom: 20px;
   }
-  .three {
-    width: 300px;
-    height: 180px;
-  }
-  .foure {
-    width: 240px;
-    height: 330px;
-    margin-right: 20px;
-  }
-  .five {
-    width: 240px;
-    height: 330px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .first {
-    width: 500px;
-    height: 700px;
-    margin-bottom: 25px;
-  }
-  .too {
-    width: 700px;
-    height: 500px;
-    margin-bottom: 30px;
-  }
-  .three {
-    width: 500px;
-    height: 230px;
-  }
-  .foure {
-    width: 335px;
-    height: 430px;
-    margin-right: 30px;
-  }
-  .five {
-    width: 335px;
-    height: 430px;
+  .about__position {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 
